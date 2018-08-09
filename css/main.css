@@ -1,0 +1,72 @@
+body {
+  background: #3d1d66;
+  color: white;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  height: 132px;
+  background: url("../img/header_wrap.jpg") no-repeat center top;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  width: 128px;
+  height: 62px;
+  background: url("../img/logo.png") no-repeat center center;
+  text-indent: -9999px;
+}
+
+#desde {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: 0 auto;
+  margin-top: -11px;
+  width: 272px;
+  height: 22px;
+  background: url("../img/desde.png") no-repeat center center;
+  text-indent: -9999px;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+.slide img, .slide .slide__text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 769px) {
+  #logo {
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: 0 auto;
+  }
+
+  #desde {
+    top: auto;
+    bottom: 10px;
+  }
+}
