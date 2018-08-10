@@ -37,6 +37,10 @@ hr {
   opacity: 0.5;
 }
 
+.slide img {
+  border: 5px white solid;
+}
+
 .slide img, .slide .slide__text {
   width: 80%;
   margin: 0 auto;
