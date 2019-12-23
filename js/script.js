@@ -3,8 +3,9 @@ $(document).ready(function(){
     autoPlay: 9000,
     navigation : true,
     navigationText: ['Anterior', 'Següent'],
-    slideSpeed : 900,
+    slideSpeed : 1000,
     singleItem : true,
-    pagination : true
+    pagination : true,
+    autoplayHoverPause: true
   });
 });
